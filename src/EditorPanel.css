@@ -1,0 +1,23 @@
+.editor-container{
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.editor{
+    border:5px solid lightskyblue;
+    height: 80vh;
+    width:100%;
+}
+.btn{
+    border: 5px solid black;
+    height: 50px;
+    width: 100px;
+}
+.btn:hover{
+    background-color: bisque;
+}
